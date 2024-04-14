@@ -1,0 +1,6 @@
+<?php
+$product = $block->getProduct();
+if ($product && $product->getQuantity() < 50) {
+    echo '<div class="last-units">Last Units!</div>';
+}
+
